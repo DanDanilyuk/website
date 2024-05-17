@@ -6,7 +6,7 @@ categories: project
 image: /images/legal_offroad_cover.svg
 ---
 
-![Legal Off-Road](/images/legal_offroad_cover.svg)
+[![Legal Off-Road](/images/legal_offroad_cover.svg)](https://www.legaloffroad.com)
 
 **Description**: Legal Off-Road assists users in making dirt bikes and ATVs street legal by simplifying the documentation process. It offers an online form that users can fill out to generate the necessary PDFs, send them, and subsequently receive their legal title and plates.
 

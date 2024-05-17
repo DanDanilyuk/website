@@ -6,7 +6,7 @@ categories: project
 image: /images/wifi_qr_cover.svg
 ---
 
-![WiFi QR Code Generator](/images/wifi_qr_cover.svg)
+[![WiFi QR Code Generator](/images/wifi_qr_cover.svg)](https://dandanilyuk.github.io/wifi_qr_generator/)
 
 **Description**: The WiFi QR Code Generator allows users to create QR codes for WiFi networks easily. Users can enter their WiFi network name (SSID) and password, and the tool generates a QR code that can be scanned by devices to connect to the WiFi network without needing to manually enter the credentials.
 
