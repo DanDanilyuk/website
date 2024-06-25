@@ -3,10 +3,10 @@ layout: project
 title: 'BoatUS.org Course Completer'
 date: 2024-06-17 13:01:12 -0400
 categories: project
-image: /images/boatus_course_completer.png
+image: /images/boatus_course_completer.svg
 ---
 
-[![BoatUS.org Course Completer](/images/boatus_course_completer.png)](https://github.com/DanDanilyuk/boatus_course_completer)
+[![BoatUS.org Course Completer](/images/boatus_course_completer.svg)](https://github.com/DanDanilyuk/boatus_course_completer)
 
 **Description**: The BoatUS.org Course Completer is a tool that automatically completes courses and the final exam on Boat.us boater safety courses. This extension is designed to save users time by automating the completion of mandatory safety courses.
 

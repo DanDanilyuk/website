@@ -3,10 +3,10 @@ layout: project
 title: 'Facebook Message Deleter'
 date: 2024-05-14 13:01:12 -0400
 categories: project
-image: /images/facebook_message_deleter_cover.png
+image: /images/facebook_message_deleter_cover.svg
 ---
 
-[![Facebook Message Deleter](/images/facebook_message_deleter_cover.png)](https://dandanilyuk.github.io/facebook_message_deleter)
+[![Facebook Message Deleter](/images/facebook_message_deleter_cover.svg)](https://dandanilyuk.github.io/facebook_message_deleter)
 
 **Description**: The Facebook Message Deleter is a tool that allows users to delete their Facebook messages quickly and easily. This tool is designed to help users manage their Facebook Messenger conversations by providing an efficient way to remove unwanted messages.
 
