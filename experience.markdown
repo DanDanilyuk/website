@@ -13,54 +13,64 @@ priority: 5
 
 ## Software Developer
 
-Lifelong problem solver passionate about learning new skills. Excels at finding innovative solutions to complex problems and maintains a positive outlook, striving to face each day with a smile.
+Lifelong problem solver passionate about learning new skills. Proven track record automating workflows, delivering scalable and high-availability applications, and maintaining mission-critical software. Excels at finding innovative solutions to complex problems with a positive outlook.
 
 ### Skills
 
-- **Languages:** Ruby, JavaScript (React, Node, ES6, TypeScript), HTML/HAML, CSS/SASS
-- **Frameworks:** Ruby on Rails, Angular, jQuery, PostgreSQL, MongoDB, AWS
-- **Other:** Git Version Control, Testing with RSPEC/Capybara, RESTful APIs, Heroku, CI, Adobe Creative Cloud
+- **Languages:** Ruby, Python (Scripting), JavaScript (React, Node, ES6, TypeScript), HTML/HAML/ERB, CSS/SASS
+- **Frameworks/Technologies:** Ruby on Rails, Node/Express, Hotwire, Angular, PostgreSQL, MongoDB, AWS
+- **DevOps/Cloud:** AWS, Docker, Terraform, Heroku
+- **Other:** Git/GitHub, Testing (Rspec, Capybara), RESTful APIs, CI/CD, Configuration Management
 
 ### Experience
 
+#### Data Management / Configuration Control
+
+**CACI International Inc** — (Sep 2024 – Present)
+
+- Automated critical workflows via Bash and Python scripting, reducing manual tasks.
+- Configured and maintained high-availability systems for mission-critical software.
+- Conducted system validation testing aligned with operational requirements.
+- Improved overall system performance and substantially reduced manual effort.
+- Maintained legacy C applications, implementing bug fixes and enhancements.
+
+#### Software Engineer
+
+**Self-Employed** — (Mar 2022 – Sep 2024)
+
+- Built and tested innovative startup ideas using Ruby on Rails and AWS.
+- Architected and developed scalable, user-centric web applications from MVP to deployment.
+- Leveraged AWS services for performance, scalability, and reliable deployment pipelines.
+- Gained expertise in rapid prototyping and delivering tech-driven solutions.
+
 #### Software Development Manager
 
-**Trace First Inc** - (Jul 2021 – Mar 2022)
+**Trace First Inc** — (Jul 2021 – Mar 2022)
 
-- Managed a team both in-office and remotely across time zones.
-- Oversaw development workflow including architecture, issue creation, code reviews, and deployment.
+- Led a team in-office and remotely across time zones.
 - Provided mentorship and practical development advice to team members.
-- Facilitated onboarding of new developers, offering ongoing support and feedback.
-- Researched, planned, and implemented new technologies and tools as necessary.
+- Researched, planned, implemented, and deployed new technologies/tools as needed.
 
 #### Software Engineer
 
-**CarePort Health** - (Dec 2020 – Jul 2021)
+**CarePort Health** — (Dec 2020 – Jul 2021)
 
-- Collaborated with a remote team to enhance patient care through technology.
-- Integrated products with third-party vendors using APIs.
+- Collaborated with a remote team in an Agile environment to improve patient care.
+- Worked with 3rd party vendors to integrate multiple products with APIs.
 - Developed SMART on FHIR implementations in the healthcare industry.
-- Managed continuous integration workflows including unit testing and deployments.
+- Handled CI workflow with unit testing and deployments.
 
 #### Software Engineer
 
-**Trace First Inc** - (Apr 2018 – Dec 2020)
+**Trace First Inc** — (Apr 2018 – Dec 2020)
 
-- Contributed to the development, deployment, and maintenance of multiple apps in a SCRUM environment.
-- Identified and reengineered performance bottlenecks involving SQL, computing, and image processing.
-- Utilized CI/Git for staging and production deployments on AWS.
-
-#### Software Developer Intern
-
-**Game Set Match** - (Jan 2018 – Mar 2018)
-
-- Refactored existing controllers, built scopes, and enhanced code readability.
-- Diagnosed and resolved site bugs, writing necessary corrections and adding tests.
+- Developed, deployed, and maintained apps in production in a SCRUM environment.
+- Identified and reengineered performance bottlenecks (SQL, Computing, Image Processing).
+- Integrated application performance monitoring tools for proactive issue detection.
 
 ### Education
 
-**Epicodus** - (July 2017 – February 2018)
+**Epicodus** — (Jul 2017 – Feb 2018)
 
-- Intensive 6-month program focused on Rails, Ruby, Angular, JavaScript, CSS, HTML.
-- Engaged in daily programming activities including pair programming, mob programming, and solo projects.
-- Developed fully functional applications using BDD, TDD, and OOP principles.
+- Full-Time, 6-month program, learning Rails, Ruby, Angular, JavaScript, CSS, HTML.
+- Built fully functional apps utilizing BDD, TDD, and OOP in a pair-programming environment.
