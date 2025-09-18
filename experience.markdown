@@ -8,7 +8,6 @@ priority: 5
 <a href="{{ site.url }}/assets/Dan%20Danilyuk%20Resume.pdf" target="_blank">View Resume</a>
 
 **Location:** Fredericksburg, VA  
-**Phone:** 717.799.2224  
 **Email:** [dandanilyuk@gmail.com](mailto:dandanilyuk@gmail.com)
 
 ## Software Developer
