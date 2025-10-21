@@ -11,7 +11,7 @@ layout: default
   <div class="projects">
     {%- if site.projects.size > 0 -%}
       <ul class="post-list">
-        {%- for post in site.projects -%}
+        {%- for post in site.projects reversed -%}
           <div class="card">
             <div class="card-item">
               <img style="max-height: 40%; max-width: 40%; display: block; margin: 0 auto;" src="{{ post.image }}" alt="Description of Image">
