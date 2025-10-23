@@ -7,7 +7,7 @@ priority: 5
 
 <a href="{{ site.url }}/assets/Dan%20Danilyuk%20Resume.pdf" target="_blank">View Resume</a>
 
-**Location:** Fredericksburg, VA  
+**Location:** Harrisonburg, VA  
 **Email:** [dandanilyuk@gmail.com](mailto:dandanilyuk@gmail.com)
 
 ## Software Developer
