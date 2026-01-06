@@ -20,9 +20,8 @@
 
 title: Dan Danilyuk
 email: DanDanilyuk@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Dan Danilyuk, featuring a blog, showcasing projects, and detailing professional experience. Explore insights, creative work, and career highlights all in one place.
-baseurl: '' # the subpath of your site, e.g. /blog
+description: Personal website of Dan Danilyuk showcasing projects and detailing professional experience.
+baseurl: '' # the subpath of your site
 url: 'https://dandanilyuk.com' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DanDanilyuk
 github_username: DanDanilyuk
@@ -38,7 +37,6 @@ collections:
 plugins:
   - jekyll-feed
 header_pages:
-  - blog.markdown
   - projects.markdown
   - experience.markdown
 # Exclude from processing.
