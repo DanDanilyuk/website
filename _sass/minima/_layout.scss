@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "sass:math";
+
 /**
   * Variables
   */
@@ -57,7 +60,7 @@ $primary-color: #007bff;
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
-    right: $spacing-unit / 2;
+    right: math.div($spacing-unit, 2);
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
@@ -118,7 +121,7 @@ $primary-color: #007bff;
 
 .footer-heading {
   @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: math.div($spacing-unit, 2);
 }
 
 .contact-list,
@@ -130,14 +133,14 @@ $primary-color: #007bff;
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
-  margin-left: -$spacing-unit / 2;
+  margin-left: math.div(-$spacing-unit, 2);
   @extend %clearfix;
 }
 
 .footer-col {
   float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  margin-bottom: math.div($spacing-unit, 2);
+  padding-left: math.div($spacing-unit, 2);
 }
 
 .footer-col-1 {
@@ -223,7 +226,7 @@ $primary-color: #007bff;
   box-shadow: 0 2px 4px rgba($black-color, 0.1);
   .card-title {
     @include relative-font-size(1.5);
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: math.div($spacing-unit, 2);
   }
   .card-description {
     color: $grey-color;

@@ -36,7 +36,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1 # Updated to latest tag for Ubuntu 24.04 support and efficiency
         with:
-          ruby-version: '3.4' # Updated to latest stable series (e.g., 3.4.5); specify exact like '3.4.5' if needed
+          ruby-version: '4.0' # Ruby 4.0.1
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
