@@ -6,26 +6,30 @@ categories: project
 image: /images/wifi_qr_cover.svg
 ---
 
-[![WiFi QR Code Generator](/images/wifi_qr_cover.svg)](https://dandanilyuk.github.io/wifi_qr_generator/)
+[![Wi-Fi QR Generator](/images/wifi_qr_cover.svg)](https://dandanilyuk.github.io/wifi_qr_generator/)
 
-**Description**: The WiFi QR Code Generator allows users to create QR codes for WiFi networks easily. Users can enter their WiFi network name (SSID) and password, and the tool generates a QR code that can be scanned by devices to connect to the WiFi network without needing to manually enter the credentials.
+**Description**: The Wi-Fi QR Generator creates scannable QR codes that let devices connect to a WiFi network without manually entering credentials. It supports two modes: automatic detection of the current wireless network or manual entry of SSID, password, and security type. Generated QR codes can be exported as PDF or image files.
 
 **Features**:
 
-- Simple and user-friendly interface
-- Generates QR codes for WiFi network credentials
-- Supports different encryption types (WEP, WPA/WPA2)
-- Instant QR code generation
-- Option to download the generated QR code as an image
+- Auto-detect mode that reads the current wireless network's SSID and security type
+- Manual entry mode for SSID, password, and encryption type (WEP, WPA/WPA2)
+- Support for hidden network configurations
+- Export QR codes as downloadable PDF files via jsPDF
+- Export QR codes as downloadable image files
+- Shell script component (wifi_gen.sh) for command-line network detection
 
-**Motivation**: This tool simplifies the process of connecting to WiFi networks by eliminating the need to manually input the network name and password. It is especially useful for guests in homes or offices, as well as for businesses that offer free WiFi to their customers.
+**Motivation**: Sharing WiFi credentials with guests typically means dictating a long password or writing it down. This tool generates a QR code that any modern smartphone can scan to connect instantly. The auto-detect feature makes it even faster by pulling the current network's details automatically.
 
 **Technologies Used**:
 
-- HTML/CSS
-- JavaScript
-- QR Code Generation Library
+- HTML/CSS/JavaScript
+- QRCode.js library for QR code generation
+- jsPDF library for PDF export
+- Shell scripting (Bash) for wireless network detection
 
-**Impact**: The WiFi QR Code Generator improves the user experience by making it quick and easy to connect to WiFi networks. It enhances convenience for users and can be beneficial in various settings, from personal to commercial use.
+**Impact**: The Wi-Fi QR Generator eliminates the friction of sharing WiFi credentials in homes, offices, and public spaces. Guests can connect by scanning a single QR code instead of typing a complex password.
 
-**Website**: [WiFi QR Code Generator](https://dandanilyuk.github.io/wifi_qr_generator/)
+**Website**: [Wi-Fi QR Generator](https://dandanilyuk.github.io/wifi_qr_generator/)
+
+**GitHub**: [DanDanilyuk/wifi_qr_generator](https://github.com/DanDanilyuk/wifi_qr_generator)

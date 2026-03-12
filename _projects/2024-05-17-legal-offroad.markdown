@@ -8,22 +8,25 @@ image: /images/legal_offroad_cover.svg
 
 [![Legal Off-Road](/images/legal_offroad_cover.svg)](https://www.legaloffroad.com)
 
-**Description**: Legal Off-Road assists users in making dirt bikes and ATVs street legal by simplifying the documentation process. It offers an online form that users can fill out to generate the necessary PDFs, send them, and subsequently receive their legal title and plates.
+**Description**: Legal Off-Road is a web service that helps users make dirt bikes and ATVs street legal by streamlining the titling and registration paperwork. Users fill out an online form with their vehicle details, and the service generates the required legal documents, handles submission, and facilitates receipt of official titles and license plates.
 
 **Features**:
 
-- Automated form filling for required documents
-- Guidance on document submission and fee payment
-- Quick receipt of legal titles and plates
+- Online form that collects vehicle information and generates required legal documents
+- Automated PDF generation of titling and registration paperwork
+- Guided step-by-step process from document submission through fee payment
+- Email notifications with status updates throughout the registration process
+- Support for dirt bikes and ATVs across applicable jurisdictions
 
-**Motivation**: This project addresses the inconvenience of transporting off-road vehicles to legal trails by allowing them to be used legally on public roads.
+**Motivation**: Transporting off-road vehicles on a trailer to reach legal trails is inconvenient and expensive. Making these vehicles street legal allows riders to drive them directly to trails and use them for short trips. However, the titling and registration process involves complex paperwork that varies by jurisdiction. Legal Off-Road simplifies this into a single online workflow.
 
 **Technologies Used**:
 
-- Web Forms
-- PDF Generation
-- Email Notifications
+- Web forms with server-side validation
+- PDF generation for legal documents
+- Automated email notification system
+- Payment processing integration
 
-**Impact**: The service streamlines the process of making off-road vehicles street legal, thereby enhancing accessibility and enjoyment for riders.
+**Impact**: Legal Off-Road removes the paperwork barrier to street-legalizing off-road vehicles, saving riders hours of navigating bureaucratic processes. By automating document generation and guiding users through each step, it makes street legalization accessible to riders who would otherwise find the process too complicated.
 
 **Website**: [Legal Off-Road](https://www.legaloffroad.com)

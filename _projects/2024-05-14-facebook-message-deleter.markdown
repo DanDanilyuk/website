@@ -8,24 +8,28 @@ image: /images/facebook_message_deleter_cover.svg
 
 [![Facebook Message Deleter](/images/facebook_message_deleter_cover.svg)](https://dandanilyuk.github.io/facebook_message_deleter)
 
-**Description**: The Facebook Message Deleter is a tool that allows users to delete their Facebook messages quickly and easily. This tool is designed to help users manage their Facebook Messenger conversations by providing an efficient way to remove unwanted messages.
+**Description**: The Facebook Message Deleter is a browser console script that bulk-deletes Facebook Messenger conversations. Users paste the script into their browser's developer console on the Messenger page, and it automatically removes conversations in batches. No browser extensions or additional software required.
 
 **Features**:
 
-- Bulk deletion of Facebook messages
-- User-friendly interface
-- Fast and efficient message deletion
-- Secure and private operation
-- No need to manually delete each message
+- Bulk deletion of Facebook Messenger conversations via browser console
+- Rate-limited to 50 conversations per run to avoid triggering Facebook's abuse detection
+- Minified script version available for quick pasting
+- HTML-based interface as an alternative to console usage
+- Runs entirely in the browser with no external server communication
+- No browser extensions or software installations needed
 
-**Motivation**: This project addresses the need for a convenient way to manage Facebook Messenger conversations. Deleting messages one by one can be time-consuming and tedious. The Facebook Message Deleter streamlines this process, making it faster and more efficient for users to clean up their message history.
+**Motivation**: Facebook does not provide a built-in way to bulk-delete Messenger conversations. Removing them one by one is tedious, especially for users with hundreds or thousands of conversations. This script automates the process, letting users clean up their message history in minutes instead of hours.
 
 **Technologies Used**:
 
-- JavaScript
-- HTML/CSS
-- Browser Automation
+- JavaScript (browser console execution)
+- Facebook Messenger DOM interaction
+- HTML interface for non-technical users
+- Script minification for ease of use
 
-**Impact**: The Facebook Message Deleter improves the user experience by saving time and effort when managing Facebook messages. It provides an easy and secure way to bulk delete messages, helping users maintain a tidy and organized Messenger inbox.
+**Impact**: The Facebook Message Deleter saves significant time for users who want to clean up their Messenger history. By automating a process that Facebook intentionally makes difficult, it gives users more control over their own data and privacy.
 
 **Website**: [Facebook Message Deleter](https://dandanilyuk.github.io/facebook_message_deleter/)
+
+**GitHub**: [DanDanilyuk/facebook_message_deleter](https://github.com/DanDanilyuk/facebook_message_deleter)
