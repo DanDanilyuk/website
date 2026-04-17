@@ -1,14 +1,14 @@
 ---
 layout: project
-title: 'LoafBuddy'
+title: 'Loaf Buddy'
 date: 2026-01-16 16:04:00 -0500
 categories: project
 image: /images/loafbuddy_cover.svg
 ---
 
-[![LoafBuddy](/images/loafbuddy_cover.svg)](https://www.loafbuddy.com)
+[![Loaf Buddy](/images/loafbuddy_cover.svg)](https://www.loafbuddy.com)
 
-**Description**: LoafBuddy is a sourdough baking companion that takes the guesswork out of feeding a starter and mixing a loaf. It pairs two calculators in one interface: a starter feeding planner that sizes your next feed based on when you want it ripe, and a bread calculator that converts baker's percentages into exact gram weights for flour, water, starter, and salt.
+**Description**: Loaf Buddy is a sourdough baking companion that takes the guesswork out of feeding a starter and mixing a loaf. It pairs two calculators in one interface: a starter feeding planner that sizes your next feed based on when you want it ripe, and a bread calculator that converts baker's percentages into exact gram weights for flour, water, starter, and salt.
 
 **Features**:
 
@@ -23,7 +23,7 @@ image: /images/loafbuddy_cover.svg
 - Ambient-temperature timing guidance calibrated to 75F / 24C
 - Dark mode and a mobile-first layout
 
-**Motivation**: Sourdough rewards precision, but the math around baker's percentages, starter hydration, and feed timing is easy to get wrong at 6am on a Saturday. LoafBuddy automates that math and keeps the schedule honest, so bakers can focus on the dough instead of the spreadsheet.
+**Motivation**: Sourdough rewards precision, but the math around baker's percentages, starter hydration, and feed timing is easy to get wrong at 6am on a Saturday. Loaf Buddy automates that math and keeps the schedule honest, so bakers can focus on the dough instead of the spreadsheet.
 
 **Technologies Used**:
 
@@ -32,7 +32,7 @@ image: /images/loafbuddy_cover.svg
 - Responsive tab-based navigation
 - Dark mode theming via CSS
 
-**Impact**: LoafBuddy lowers the barrier for new sourdough bakers while giving experienced ones a faster way to scale a formula. Exact ingredient amounts cut down on waste, and the timing guidance makes it realistic to fit a loaf around a normal week.
+**Impact**: Loaf Buddy lowers the barrier for new sourdough bakers while giving experienced ones a faster way to scale a formula. Exact ingredient amounts cut down on waste, and the timing guidance makes it realistic to fit a loaf around a normal week.
 
 **Website**: [loafbuddy.com](https://www.loafbuddy.com)
 
