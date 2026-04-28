@@ -28,6 +28,10 @@ figure {
 /**
  * Basic styling
  */
+html {
+  overflow-x: clip;
+}
+
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height}
     $base-font-family;
@@ -42,6 +46,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  width: 100vw;
 }
 
 /**
