@@ -23,7 +23,7 @@ email: DanDanilyuk@gmail.com
 description: Personal website of Dan Danilyuk showcasing projects and detailing professional experience.
 baseurl: '' # the subpath of your site
 url: 'https://dandanilyuk.com' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: DanDanilyuk
+linkedin_username: DanDanilyuk
 github_username: DanDanilyuk
 
 # Build settings
