@@ -8,25 +8,25 @@ image: /images/legal_offroad_cover.svg
 
 [![Legal Off-Road](/images/legal_offroad_cover.svg)](https://www.legaloffroad.com)
 
-**Description**: Legal Off-Road is a web service that helps users make dirt bikes and ATVs street legal by streamlining the titling and registration paperwork. Users fill out an online form with their vehicle details, and the service generates the required legal documents, handles submission, and facilitates receipt of official titles and license plates.
+**Description**: Legal Off-Road is a service that makes dirt bikes and ATVs street legal by taking over the titling and registration paperwork. A rider fills out one online form with their vehicle's details; the service prepares the required documents, handles submission, and follows through until an official title and license plate arrive.
 
 **Features**:
 
-- Online form that collects vehicle information and generates required legal documents
-- Automated PDF generation of titling and registration paperwork
-- Guided step-by-step process from document submission through fee payment
-- Email notifications with status updates throughout the registration process
+- Single online form that collects everything needed to generate the legal paperwork
+- Automated PDF generation of the titling and registration documents
+- Guided process covering document preparation, submission, and fee payment
+- Email updates at each stage so riders always know where their registration stands
 - Support for dirt bikes and ATVs across applicable jurisdictions
 
-**Motivation**: Transporting off-road vehicles on a trailer to reach legal trails is inconvenient and expensive. Making these vehicles street legal allows riders to drive them directly to trails and use them for short trips. However, the titling and registration process involves complex paperwork that varies by jurisdiction. Legal Off-Road simplifies this into a single online workflow.
+**Motivation**: Riding legally on the street means a title and a plate, but the paperwork to get them varies by jurisdiction and is confusing enough that most riders never try. The alternative is trailering the bike to every trailhead. Legal Off-Road folds the whole process into one form, so the bike can be ridden to the trail instead of hauled.
 
 **Technologies Used**:
 
-- Web forms with server-side validation
-- PDF generation for legal documents
-- Automated email notification system
-- Payment processing integration
+- Static HTML, CSS, and JavaScript front end
+- Multi-step vehicle information form with client-side validation
+- Automated PDF document generation
+- Email notifications and payment collection behind the form
 
-**Impact**: Legal Off-Road removes the paperwork barrier to street-legalizing off-road vehicles, saving riders hours of navigating bureaucratic processes. By automating document generation and guiding users through each step, it makes street legalization accessible to riders who would otherwise find the process too complicated.
+**Impact**: Legal Off-Road turns hours of jurisdiction-specific bureaucracy into a single form. It makes street legalization realistic for riders who would otherwise give up on the paperwork, and it spares the ones who would have persisted the research time.
 
-**Website**: [Legal Off-Road](https://www.legaloffroad.com)
+**Website**: [www.legaloffroad.com](https://www.legaloffroad.com)
