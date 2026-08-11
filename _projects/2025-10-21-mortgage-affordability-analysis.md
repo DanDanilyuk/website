@@ -6,7 +6,7 @@ categories: project
 image: /images/mortgage_affordability_cover.svg
 ---
 
-[![Mortgage Affordability Analysis](/images/mortgage_affordability_cover.svg)](https://homeaffordabilitytracker.com/)
+[![Mortgage Affordability Analysis](/images/mortgage_affordability_cover.svg)](https://dandanilyuk.github.io/mortgage_affordability_analysis)
 
 **Description**: Mortgage Affordability Analysis, live as the Home Affordability Tracker, is a dashboard that charts US home affordability by comparing the full cost of a 30-year mortgage against income. It computes a price-to-income ratio: total principal plus interest divided by annual earnings, where a higher number means housing is further out of reach. The data refreshes weekly from federal sources and covers the nation, all 50 states, and Washington, D.C.
 
@@ -31,6 +31,6 @@ image: /images/mortgage_affordability_cover.svg
 
 **Impact**: The tracker condenses decades of economic data into one legible affordability trend, at both the national and state level. Because the pipeline runs itself every week, the picture stays current without anyone touching it.
 
-**Website**: [homeaffordabilitytracker.com](https://homeaffordabilitytracker.com/)
+**Website**: [dandanilyuk.github.io/mortgage_affordability_analysis](https://dandanilyuk.github.io/mortgage_affordability_analysis)
 
 **GitHub**: [DanDanilyuk/mortgage_affordability_analysis](https://github.com/DanDanilyuk/mortgage_affordability_analysis)
