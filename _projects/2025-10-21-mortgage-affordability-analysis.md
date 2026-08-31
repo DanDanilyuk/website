@@ -1,14 +1,14 @@
 ---
 layout: project
-title: 'Mortgage Affordability Analysis'
+title: 'Mortgage vs Income'
 date: 2025-10-21 14:30:00 -0400
 categories: project
 image: /images/mortgage_affordability_cover.svg
 ---
 
-[![Mortgage Affordability Analysis](/images/mortgage_affordability_cover.svg)](https://dandanilyuk.github.io/mortgage_affordability_analysis)
+[![Mortgage vs Income](/images/mortgage_affordability_cover.svg)](https://mortgagevsincome.com/)
 
-**Description**: Mortgage Affordability Analysis, live as the Home Affordability Tracker, is a dashboard that charts US home affordability by comparing the full cost of a 30-year mortgage against income. It computes a price-to-income ratio: total principal plus interest divided by annual earnings, where a higher number means housing is further out of reach. The data refreshes weekly from federal sources and covers the nation, all 50 states, and Washington, D.C.
+**Description**: Mortgage vs Income is a dashboard that charts US home affordability by comparing the full cost of a 30-year mortgage against income. It computes a price-to-income ratio: total principal plus interest divided by annual earnings, where a higher number means housing is further out of reach. The data refreshes weekly from federal sources and covers the nation, all 50 states, and Washington, D.C.
 
 **Features**:
 
@@ -27,10 +27,10 @@ image: /images/mortgage_affordability_cover.svg
 - Chart.js 4 with chartjs-plugin-zoom for the interactive chart
 - Ruby data pipeline pulling BLS Average Weekly Earnings, Zillow Home Value Index via FRED, and Freddie Mac 30-year rates (MORTGAGE30US)
 - BLS Quarterly Census of Employment and Wages for state income multipliers
-- GitHub Actions for the weekly refresh; GitHub Pages hosting with no build step
+- GitHub Actions for the weekly refresh; GitHub Pages hosting on mortgagevsincome.com with no build step
 
-**Impact**: The tracker condenses decades of economic data into one legible affordability trend, at both the national and state level. Because the pipeline runs itself every week, the picture stays current without anyone touching it.
+**Impact**: Mortgage vs Income condenses decades of economic data into one legible affordability trend, at both the national and state level. Because the pipeline runs itself every week, the picture stays current without anyone touching it.
 
-**Website**: [dandanilyuk.github.io/mortgage_affordability_analysis](https://dandanilyuk.github.io/mortgage_affordability_analysis)
+**Website**: [mortgagevsincome.com](https://mortgagevsincome.com/)
 
-**GitHub**: [DanDanilyuk/mortgage_affordability_analysis](https://github.com/DanDanilyuk/mortgage_affordability_analysis)
+**GitHub**: [DanDanilyuk/mortgagevsincome](https://github.com/DanDanilyuk/mortgagevsincome)
