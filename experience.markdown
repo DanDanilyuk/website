@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Experience
+description: 'Skills, work history, and education of Dan Danilyuk, a full stack software developer working in Ruby on Rails, Python, and AWS.'
 permalink: /experience/
 priority: 5
 ---

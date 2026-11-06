@@ -19,12 +19,21 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Dan Danilyuk
+tagline: Full stack software developer
+author: Dan Danilyuk
 email: DanDanilyuk@gmail.com
 description: Personal website of Dan Danilyuk showcasing projects and detailing professional experience.
 baseurl: '' # the subpath of your site
 url: 'https://dandanilyuk.com' # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: DanDanilyuk
 github_username: DanDanilyuk
+
+# Read by jekyll-seo-tag for the Person structured data on the home page.
+social:
+  name: Dan Danilyuk
+  links:
+    - https://github.com/DanDanilyuk
+    - https://www.linkedin.com/in/DanDanilyuk
 
 # Build settings
 theme: minima
@@ -33,6 +42,21 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+# Link preview image for any page that doesn't set its own.
+defaults:
+  - scope:
+      path: ''
+    values:
+      image: /images/social_card.jpg
+
+feed:
+  collections:
+    - projects
+
+# Notes for tooling, not pages. Added to Jekyll's default exclude list.
+exclude:
+  - CLAUDE.md
 
 plugins:
   - jekyll-feed

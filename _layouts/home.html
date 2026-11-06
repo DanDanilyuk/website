@@ -5,10 +5,10 @@ layout: default
 <div class="home">
   <div class="about-me">
     <div class="image-container">
-      <img style="width: 70%; display: block; margin: 0 auto;" src="images/headshot.jpg" alt="Headshot of Daniel Danilyuk">
+      <img style="width: 70%; height: auto; display: block; margin: 0 auto;" src="{{ "/images/headshot_800.jpg" | relative_url }}" srcset="{{ "/images/headshot_800.jpg" | relative_url }} 800w, {{ "/images/headshot_1200.jpg" | relative_url }} 1200w" sizes="(max-width: 800px) calc(70vw - 21px), 518px" width="800" height="800" alt="Headshot of Daniel Danilyuk">
     </div>
 
-    <h2>About Me</h2>
+    <h1>About Me</h1>
     <p>I'm a full stack software developer with 8+ years building back-end systems and scalable Ruby on Rails applications across startup, healthcare, and DoD environments. I'm a generalist by nature, equally happy diving deep when a problem demands it, and a firm believer in well-tested code. Above all, I'm motivated by shipping software that delivers real value.</p>
   </div>
 </div>

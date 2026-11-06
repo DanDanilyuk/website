@@ -1,23 +1,53 @@
 ---
 layout: default
 ---
+{%- assign website_text = page.website | remove: "https://" | remove_first: "www." | split: "/" | join: "/" -%}
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+  <header class="post-header project-header">
+    <div>
+      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+        {%- if page.author -%}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        {%- endif -%}</p>
+    </div>
+    <img class="project-logo" src="{{ page.logo | relative_url }}" alt="">
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <p class="project-summary">{{ page.description | escape }}</p>
+
+  <ul class="project-links">
+    <li><strong>Website</strong>: <a href="{{ page.website }}">{{ website_text }}</a></li>
+    {%- if page.github %}
+    <li><strong>GitHub</strong>: <a href="{{ page.github }}">{{ page.github | remove: "https://github.com/" }}</a></li>
+    {%- endif %}
+  </ul>
+
+  <figure class="project-screenshot">
+    <a href="{{ page.website }}">
+      <img src="{{ page.image | relative_url }}" width="1600" height="1000" alt="Screenshot of {{ page.title | escape }}">
+    </a>
+    <figcaption>{{ page.caption | escape }}</figcaption>
+  </figure>
+
+  <div class="post-content project-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  <nav class="project-pager" aria-label="More projects">
+    {%- if page.previous %}
+    <a class="pager-previous" rel="prev" href="{{ page.previous.url | relative_url }}"><span class="post-meta">Previous</span>{{ page.previous.title | escape }}</a>
+    {%- endif %}
+    <a class="pager-all" href="{{ "/projects/" | relative_url }}">All projects</a>
+    {%- if page.next %}
+    <a class="pager-next" rel="next" href="{{ page.next.url | relative_url }}"><span class="post-meta">Next</span>{{ page.next.title | escape }}</a>
+    {%- endif %}
+  </nav>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

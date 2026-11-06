@@ -3,14 +3,19 @@ layout: project
 title: 'Bill of Sale Builder'
 date: 2026-05-07 16:04:00 -0400
 categories: project
-image: /images/bill_of_sale_builder_cover.svg
+description: 'Build a free, state-aware vehicle bill of sale PDF for any US state, right in your browser.'
+website: https://www.billofsalebuilder.com
+github: https://github.com/DanDanilyuk/billofsalebuilder
+image: /images/projects/bill_of_sale_builder.jpg
+logo: /images/bill_of_sale_builder_cover.svg
+caption: 'The final step, with a finished Virginia bill of sale ready to download. The people and vehicle are sample data.'
 ---
 
-[![Bill of Sale Builder](/images/bill_of_sale_builder_cover.svg)](https://www.billofsalebuilder.com)
+## Description
 
-**Description**: Bill of Sale Builder is a static, browser-only wizard that produces a downloadable PDF Vehicle Bill of Sale for any US state plus the District of Columbia. A six-step flow collects the state and role, both parties' details, the vehicle, and the sale terms, then renders a state-aware PDF in the browser. Nothing is sent to a server; all data lives in `localStorage` until the form is cleared.
+Bill of Sale Builder is a static, browser-only wizard that produces a downloadable PDF Vehicle Bill of Sale for any US state plus the District of Columbia. A six-step flow collects the state and role, both parties' details, the vehicle, and the sale terms, then renders a state-aware PDF in the browser. Nothing is sent to a server; all data lives in `localStorage` until the form is cleared.
 
-**Features**:
+## Features
 
 - Six-step wizard covering setup, your info, the other party, the vehicle, sale terms, and review
 - Full coverage for all 50 US states and the District of Columbia
@@ -23,9 +28,11 @@ image: /images/bill_of_sale_builder_cover.svg
 - Light and dark theme that follows `prefers-color-scheme` and persists explicit choices
 - In-browser PDF preview before download, with form state saved to `localStorage` between sessions
 
-**Motivation**: Selling a used car, trailer, or boat usually means hunting down the right state-specific Bill of Sale form, paying a generator service, or typing one from scratch. Bill of Sale Builder produces a clean, jurisdiction-correct PDF for free without sending personal details to a server. Keeping the form fully client-side matters because it carries names, addresses, ID numbers, and VINs.
+## Motivation
 
-**Technologies Used**:
+Selling a used car, trailer, or boat usually means hunting down the right state-specific Bill of Sale form, paying a generator service, or typing one from scratch. Bill of Sale Builder produces a clean, jurisdiction-correct PDF for free without sending personal details to a server. Keeping the form fully client-side matters because it carries names, addresses, ID numbers, and VINs.
+
+## Technologies Used
 
 - Vanilla JavaScript (ES2020) with native ES modules, no build step
 - jsPDF, vendored locally with no runtime CDN dependency
@@ -35,8 +42,6 @@ image: /images/bill_of_sale_builder_cover.svg
 - HTML and CSS with `[data-theme]` light/dark theming
 - Self-hosted Inter woff2 font
 
-**Impact**: Bill of Sale Builder removes a small but persistent friction from private vehicle sales by producing a legally formatted, state-correct document in a few minutes. The fully client-side architecture keeps sensitive personal information on the user's device.
+## Impact
 
-**Website**: [www.billofsalebuilder.com](https://www.billofsalebuilder.com)
-
-**GitHub**: [DanDanilyuk/billofsalebuilder](https://github.com/DanDanilyuk/billofsalebuilder)
+Bill of Sale Builder removes a small but persistent friction from private vehicle sales by producing a legally formatted, state-correct document in a few minutes. The fully client-side architecture keeps sensitive personal information on the user's device.
